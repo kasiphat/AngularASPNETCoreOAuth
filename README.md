@@ -21,6 +21,8 @@ Sample project based on <a href="https://fullstackmark.com/post/21/user-authenti
 <pre><code>AuthServer.Infrastructure> dotnet ef database update --context AppIdentityDbContext</code></pre>
 <pre><code>AuthServer.Infrastructure> dotnet ef database update --context PersistedGrantDbContext</code></pre>
 
+- **Important:** <pre><code>dotnet tool install --global dotnet-ef</code></pre>
+
 **3.** Install Angular CLI if necessary. `npm install -g @angular/cli`
 
 **4.** Install Angular SPA dependencies.
